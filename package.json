@@ -14,7 +14,16 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "chai": "^2.2.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grudzinski/diver.git"
+  },
+  "keywords": [
+    "deep",
+    "object"
+  ],
+  "bugs": {
+    "url": "https://github.com/grudzinski/diver/issues"
+  },
+  "homepage": "https://github.com/grudzinski/diver"
 }
