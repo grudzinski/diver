@@ -1,0 +1,20 @@
+{
+  "name": "diver",
+  "version": "1.0.0",
+  "description": "Deep access to nested object values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Roman Grudzinski",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^2.2.0"
+  }
+}
