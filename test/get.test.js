@@ -22,4 +22,17 @@ describe('get', function() {
 
 	});
 
+	it('works with array of keys per level', function() {
+
+		var result = get({ x: { y: 'y', z: 'z' } }, ['x', ['y','z']]);
+		assert.strictEqual(result, 'y');
+
+		result = get({ x: { y: 'y', z: 'z' } }, ['x', ['other','z']]);
+		assert.strictEqual(result, 'z');
+
+		result = get({ x: { y: 'y', z: 'z' } }, ['x', ['other','other2']], 'default');
+		assert.strictEqual(result, 'default');
+
+	});
+
 });
